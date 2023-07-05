@@ -18,7 +18,7 @@ print(Box.DoubleCube("Example [1]"))
 while True:
     username = Write.Input("Enter UserName: ", Colors.blue_to_green, interval=0.1)
     password = Write.Input("Enter Password: ", Colors.blue_to_green, interval=0.1)
-    if username == 'ELyamane' and password == '123456':
+    if username == 'ELyamane' and password == '123456':   # You can change your username and password as you like
         Write.Print("[+] Welcome Admin \n", Colors.green, interval=0.1)
         break
     else :
